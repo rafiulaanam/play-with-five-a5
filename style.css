@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+   
+}
+
+main{
+    background: #151515;
+}
+
+.header-bg{
+    background-color: black;
+    padding: 200px;
+    background-image: url("images/Group\ 12.png");
+    background-repeat: no-repeat;
+    background-position: 0px 160px;
+}
+
+.header-bg h1{
+    font-family: 'Berkshire Swash';
+font-style: normal;
+font-weight: 400;
+font-size: 76px;
+line-height: 94px;
+text-align: center;
+text-transform: capitalize;
+color: #FF5E19;
+margin: 0;
+
+}
+.header-bg p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+
+}
+
+.player-list{
+    background: #0D0D0D;
+}
+.player-list h1{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+.player-list ol{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.player-budget{
+    padding: 10px;
+    margin-top: 50px;
+}
+.card-bg{
+    background: #0D0D0D;
+    
+}
+.card-bg h5{
+    color: white;
+}
+.card-bg p{
+    color: #B3B3B3;
+}
+.player-budget, .input-bg{
+    background: #0D0D0D;
+    
+}
+.player-budget h1{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+
+.player-budget span{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #AFAFAF;
+}
+.border-bg{
+    border: 1px solid #FFFFFF;
+    width: 100px;
+}
+
+.calculate-btn{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+padding: 5px 80px 5px 80px;
+color: #FFFFFF;
+background: #015196;
+}
+.money{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.total{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #AFAFAF;
+}
+.total-money{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: right;
+
+color: #FF5E19;
+
+}
+ol{
+    padding: 25px;
+}
+
+li{
+    margin-top: 20px;
+}
+.select-btn{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+background: #A2A9AF;
+padding: 5px 80px 5px 80px;
+}
+.select-bg{
+    background: #015196;
+}
