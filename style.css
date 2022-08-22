@@ -42,7 +42,13 @@ margin: 0;
     color: #FFFFFF;
 
 }
-
+.s-bg{
+    background-image: url("images/Afif\ Hossain.jpg");
+}
+.card-img{
+    position: absolute;
+    left: 1160px;
+}
 .player-list{
     background: #0D0D0D;
 }
