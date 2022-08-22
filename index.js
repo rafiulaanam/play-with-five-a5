@@ -133,15 +133,17 @@ const perPlayer =document.getElementById('per-player').value;
 const calculate = listLength * perPlayer;
 const manager =parseFloat(document.getElementById('manager').value);
 const coach =parseFloat(document.getElementById('coach').value);
-if (manager == "") {
+if (manager == "" || coach == "") {
     alert("Name must be filled out");
     return false;
   }
-
-
+else{
+    
 const totalCalculation = calculate + manager +coach ;
 
 const totalCalculate = document.getElementById('total-money')
 totalCalculate.innerText = totalCalculation
+}
+
 })
 
