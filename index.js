@@ -114,7 +114,10 @@ document.getElementById('btn-12').addEventListener('click', function(){
 document.getElementById('calculate').addEventListener('click', function(){
     const listLength = document.getElementsByTagName('li').length;
 const perPlayer =document.getElementById('per-player').value;
-
+if (perPlayer == "") {
+    alert("Number must be filled out");
+    return false;
+  }
 const calculate = listLength * perPlayer;
 
 const playerExpenses = document.getElementById('player-expenses')
@@ -130,9 +133,15 @@ const perPlayer =document.getElementById('per-player').value;
 const calculate = listLength * perPlayer;
 const manager =parseFloat(document.getElementById('manager').value);
 const coach =parseFloat(document.getElementById('coach').value);
+if (manager == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+
 
 const totalCalculation = calculate + manager +coach ;
 
 const totalCalculate = document.getElementById('total-money')
 totalCalculate.innerText = totalCalculation
 })
+
