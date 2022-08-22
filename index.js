@@ -131,9 +131,12 @@ document.getElementById('calculate-total').addEventListener('click', function(){
 const perPlayer =document.getElementById('per-player').value;
 
 const calculate = listLength * perPlayer;
+
 const manager =parseFloat(document.getElementById('manager').value);
 const coach =parseFloat(document.getElementById('coach').value);
-if (manager == "" || coach == "") {
+
+
+if (manager = "" || coach == "") {
     alert("Name must be filled out");
     return false;
   }
